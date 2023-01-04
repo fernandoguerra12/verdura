@@ -1,0 +1,101 @@
+/* tipo grafia */
+/* font-family: 'Montserrat', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-primary: #2cbcf1;
+  --color-segudary: #f9f9f9;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* *CREANDO CLASE GENERALES */
+.container {
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.row-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* *CREANDO CLASE DE HEADER */
+.header {
+  height: 100vh;
+  min-height: 60rem;
+  background-image: url(../img/showcase.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffff;
+}
+
+.header .header-box {
+  margin-top: 10%;
+}
+
+.header .header-box .logo img {
+  width: 12rem;
+  height: 10rem;
+}
+
+.header .header-box h1 {
+  font-size: 7rem;
+}
+
+.header .header-box p {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.header .header-box .btn {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  margin-top: 4rem;
+  background-color: var(--color-primary);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: #ffff;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 1px solid #ffff;
+}
