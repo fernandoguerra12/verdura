@@ -21,6 +21,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Montserrat", sans-serif;
+  line-height: 1.8;
 }
 
 img {
@@ -41,18 +42,24 @@ a {
 .row {
   display: flex;
 }
-
-.row-col {
-  display: flex;
-  flex-direction: column;
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .justify-content-center {
   justify-content: center;
 }
 
+.justify-content-between {
+  justify-content: space-between;
+}
+
 .align-items-center {
   align-items: center;
+}
+
+.section {
+  margin: 10rem 0;
 }
 
 /* *CREANDO CLASE DE HEADER */
@@ -64,10 +71,6 @@ a {
   background-position: center;
   background-size: cover;
   color: #ffff;
-}
-
-.header .header-box {
-  margin-top: 10%;
 }
 
 .header .header-box .logo img {
@@ -98,4 +101,45 @@ a {
   font-size: 2rem;
   font-weight: bold;
   border: 1px solid #ffff;
+}
+
+/** CREANDO LOS ESTILO DE DESCRITION */
+.descritio {
+  position: relative;
+}
+
+.descritio h2 {
+  font-weight: 900;
+  font-size: 6rem;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.descritio h3 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.descritio .card {
+  margin-top: 5rem;
+  flex: 0 0 calc(33.3% - 1rem);
+}
+
+.descritio .card .card-img {
+  text-align: center;
+}
+
+.descritio .card h4 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.descritio .card p {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 400;
 }
