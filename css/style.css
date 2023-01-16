@@ -143,3 +143,33 @@ a {
   text-align: center;
   font-weight: 400;
 }
+
+/* creando otra section */
+.sectio__par {
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+}
+.sectio__par .sectio__par-title {
+  color: var(--color-segudary);
+  text-align: center;
+}
+.sectio__par .sectio__par-title h2 {
+  font-size: 4rem;
+  margin-top: 3rem;
+  font-weight: 800;
+}
+
+.sectio__par .sectio__par-title p {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* creando otra section */
+.card__futuro {
+  flex: 0 0 calc(33.3% - 1rem);
+  text-align: center;
+  font-size: 2rem;
+}
